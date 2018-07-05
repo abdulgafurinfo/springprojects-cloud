@@ -1,0 +1,12 @@
+remoteEndPoint: file
+parameters:
+    remoteDir:       D:\mycameltest\input
+    remoteDirInterval:    5000
+    remoteDirMaxFilesPerCycle: 1
+remoteEndPoint: ftp
+parameters:
+    remoteDir:       D:\mycameltest\input\ftp
+    remoteDirInterval:    50000
+    remoteDirMaxFilesPerCycle: 10
+ 
+    

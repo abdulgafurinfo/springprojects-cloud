@@ -1,0 +1,45 @@
+server:
+   port: ${port:9090}
+   
+spring:
+  application:
+    name: camel-context-provider
+  output:
+    ansi:
+        enabled: DETECT
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+    
+camel:
+    springboot:
+     name: GlobalCamelContext
+     
+     
+     
+     
+
+logging:
+  level: 
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+ 
+eureka:
+  client:
+     registerWithEureka: true
+     fetchRegistry: true
+     serviceUrl:
+       defaultZone: http://localhost:9761/eureka/
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+     
+    
+    
+ 
+  
+ 
+ 

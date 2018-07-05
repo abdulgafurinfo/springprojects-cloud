@@ -1,0 +1,28 @@
+server:
+   port: ${port:9761}
+   
+spring:
+  application:
+    name: eureka-server
+  
+    
+    
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+         defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  instance:
+    hostname: localhost
+ 
+logging:
+  file: logs/application-debug.log
+  pattern:
+      console: "%d %-5level %logger : %msg%n"
+      file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    com.netflix: 'WARN'
+    org.springframework.cloud: 'WARN'
+    org.springframework.web: ERROR
+ 

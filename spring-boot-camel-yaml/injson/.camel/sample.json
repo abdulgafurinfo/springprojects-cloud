@@ -1,0 +1,1 @@
+{"from":[{"RemoteEndPoint":"file","remoteDir":"/sample/dev","remoteDirInterval":5000,"remoteDirMaxFilesPerCycle":30}],"to":[{"TargetEndPoint":"ftp","TargetDir":"/sample/dev","TargetDirInterval":50000,"TargetDirMaxFilesPerCycle":30},{"TargetEndPoint":"smb","TargetDir":"/sample/share","TargetDirInterval":50005,"TargetDirMaxFilesPerCycle":35}]}

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-camel-router
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: afshanhayat
+Implementation-Vendor-Id: com.abdul.springprojects
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/Spring-Camel
+ -MultiDynamic-Router/spring-camel-router/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

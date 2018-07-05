@@ -1,0 +1,7 @@
+com\abdul\springprojects\EndPointBuilderServiceApplication.class
+com\abdul\springprojects\boot\rest\EndPointObject.class
+com\abdul\springprojects\boot\feign\FeignServiceTemplate.class
+com\abdul\springprojects\boot\rest\MultiDynamicRouteBuilder.class
+com\abdul\springprojects\boot\rest\EndPointConfig.class
+com\abdul\springprojects\boot\rest\EndPointBuilder.class
+com\abdul\springprojects\boot\rest\EndPointController.class

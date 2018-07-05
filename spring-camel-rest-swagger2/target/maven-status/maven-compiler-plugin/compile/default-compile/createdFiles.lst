@@ -1,0 +1,5 @@
+com\abdul\springprojects\configurator\ApplicationConfigurator.class
+com\abdul\springprojects\serviceconfig\ServiceConfig.class
+com\abdul\springprojects\rest\ServiceController.class
+com\abdul\springprojects\serviceconfig\ServiceInvoker.class
+com\abdul\springprojects\Application.class

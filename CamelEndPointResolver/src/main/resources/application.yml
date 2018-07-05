@@ -1,0 +1,19 @@
+server:
+   port: ${port:9080}
+   
+spring:
+  application:
+    name: camel-router
+  output:
+    ansi:
+        enabled: DETECT
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+    
+    
+ 
+  
+ 
+ 

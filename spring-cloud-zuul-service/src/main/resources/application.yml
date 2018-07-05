@@ -1,0 +1,18 @@
+server:
+  port: 9091
+
+ 
+zuul:
+  #Service will be mapped under the /api URI .
+# prefix: /api
+#  ignoredServices: '*'
+  routes:
+    app-by-url:
+      path: /router/**
+      url: http://localhost:9080
+      stripPrefix: false
+    
+
+spring:
+  application:
+    name: zuul-proxy-server

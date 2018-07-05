@@ -1,0 +1,11 @@
+from:
+- ServiceEndPoint: file://ina
+  autoCreate: true
+  
+to:
+- ServiceEndPoint: file://out1
+  autoCreate: true
+- ServiceEndPoint: file://out2
+  autoCreate: true
+  
+serviceId: myserviceid12

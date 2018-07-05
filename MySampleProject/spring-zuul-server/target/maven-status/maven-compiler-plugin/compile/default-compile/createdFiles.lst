@@ -1,0 +1,3 @@
+com\abdul\springprojects\zuul\filters\pre\PreSimpleZuulFilter.class
+com\abdul\springprojects\SpringCloudZuulApp3Application.class
+com\abdul\springprojects\zuul\filters\ZuulFilters.class

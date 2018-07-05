@@ -1,0 +1,12 @@
+- {
+  TargetEndPoint: 'activemq:topic',
+  TargetUrl: localhost,
+  TargetProtocol: amqp,
+  TargetPort: 8080
+}
+- {
+  TargetEndPoint: 'rabbitmq:topic',
+  TargetUrl: localhost,
+  TargetProtocol: amqp,
+  TargetPort: '8081'
+}

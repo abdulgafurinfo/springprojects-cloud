@@ -1,0 +1,10 @@
+serviceId=employee
+serviceName=employeeDataProcesser
+remoteEndPoint=file
+remoteDir=D:\mycameltest\input
+remoteDirInterval=5000
+remoteDirMaxFilesPerCycle=10
+targetType=amqp
+targetURL=localhost
+targetPort=8876
+targetDestination=myamqptopic

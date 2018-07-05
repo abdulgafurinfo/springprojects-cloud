@@ -1,0 +1,8 @@
+com\abdul\springprojects\serviceconfig\EndPointConfig.class
+META-INF\MANIFEST.MF
+META-INF\maven\com.abdul.springprojects\spring-camel-http4\pom.xml
+META-INF\maven\com.abdul.springprojects\spring-camel-http4\pom.properties
+com\abdul\springprojects\serviceconfig\ServiceInvoker.class
+com\abdul\springprojects\configurator\ApplicationConfigurator.class
+com\abdul\springprojects\Camelhttp4Application.class
+com\abdul\springprojects\rest\ServiceController.class

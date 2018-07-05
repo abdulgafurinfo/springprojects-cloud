@@ -1,0 +1,22 @@
+server:
+  port: ${PORT:8999}  
+    
+spring:
+  application:
+    name: user-ftp-rest-service
+
+logging:
+  level: 
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+ 
+eureka:
+  client:
+     registerWithEureka: true
+     fetchRegistry: true
+     serviceUrl:
+       defaultZone: http://localhost:9761/eureka/
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}

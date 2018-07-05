@@ -1,0 +1,23 @@
+server:
+   port: ${port:9060}
+   
+spring:
+  application:
+    name: camel-context-provider
+  output:
+    ansi:
+        enabled: DETECT
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+    
+camel:
+    springboot:
+     name: CamelContext 
+    
+    
+ 
+  
+ 
+ 
